@@ -3,12 +3,13 @@ import random
 def recomendador_peliculas():
     # Diccionario de películas organizadas por género
     peliculas_por_genero = {
-        "acción": ["Mad Max: Fury Road", "John Wick", "The Dark Knight", "Inception", "Gladiator"],
-        "comedia": ["Superbad", "The Hangover", "Bridesmaids", "Step Brothers", "Dumb and Dumber"],
-        "drama": ["The Shawshank Redemption", "Forrest Gump", "The Godfather", "Schindler's List", "Fight Club"],
-        "ciencia ficción": ["Blade Runner 2049", "Interstellar", "The Matrix", "Star Wars: Episode IV", "Inception"],
-        "terror": ["The Exorcist", "Hereditary", "The Shining", "Get Out", "A Quiet Place"]
-    }
+    "acción": ["Ciudad de Dios", "El infierno", "Carandiru", "Rosario Tijeras", "La hora cero"],
+    "comedia": ["Nosotros los Nobles", "Relatos Salvajes", "El hijo de la novia", "La dictadura perfecta", "Un novio para mi mujer"],
+    "drama": ["Roma", "Amores Perros", "El secreto de sus ojos", "Y tu mamá también", "Machuca"],
+    "ciencia ficción": ["Cronos", "Al final del túnel", "Órbita 9", "Pánico 5 Bravo", "Sleep Dealer"],
+    "terror": ["La casa del fin de los tiempos", "Kilómetro 31", "El espinazo del diablo", "Akelarre", "Somos lo que hay"]
+}
+
 
     # Solicitar al usuario su género favorito
     print("Géneros disponibles: acción, comedia, drama, ciencia ficción, terror")
