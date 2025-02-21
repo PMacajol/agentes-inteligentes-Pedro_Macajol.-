@@ -15,11 +15,11 @@ class SemaforoInteligente:
     def tiempos(semaforo, vehiculos):
         # Ajusta el tiempo en verde según el número de vehículos detectados
         if vehiculos < 5:
-            semaforo.tiempo_verde = 5  # Poco tráfico, tiempo corto en verde
+            semaforo.tiempo_verde = 5  # Poco tráfico
         elif 5 <= vehiculos < 15:
-            semaforo.tiempo_verde = 10  # Tráfico moderado, tiempo medio en verde
+            semaforo.tiempo_verde = 10  # Tráfico moderado
         else:
-            semaforo.tiempo_verde = 15  # Mucho tráfico, tiempo largo en verde
+            semaforo.tiempo_verde = 15  # Mucho tráfico
 
     def cambiar_estado(semaforo):
         # Cambia el estado del semáforo y muestra el estado actual

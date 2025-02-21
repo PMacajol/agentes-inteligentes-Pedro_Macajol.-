@@ -5,7 +5,7 @@ class AgenteBuscador:
     def __init__(agente, tamaño_cuadricula=5):
         agente.tamaño_cuadricula = tamaño_cuadricula
         agente.cuadricula = [[' ' for _ in range(tamaño_cuadricula)] for _ in range(tamaño_cuadricula)]
-        agente.agente_pos = (0, 0)  # Posición inicial del agente
+        agente.agente_pos = (0, 0)  # Posición inicial
         agente.objeto_pos = agente.generar_objeto_pos()  # Posición aleatoria del objeto
         agente.cuadricula[agente.agente_pos[0]][agente.agente_pos[1]] = 'A'  # Marcar agente
         agente.cuadricula[agente.objeto_pos[0]][agente.objeto_pos[1]] = 'O'  # Marcar objeto

@@ -32,7 +32,7 @@ def sistema_experto():
         for d in diagnosticos:
             print(f"➡ {d}")
     else:
-        print("\nDiagnóstico: Tus sintomas no coinciden con una enfermedad específica. Si persisten, consulta a un médico.")
+        print("\nDiagnóstico: Tus sintomas no coinciden con una enfermedad específica, consulta a un médico.")
 
 # Ejecutar el sistema experto
 sistema_experto()
